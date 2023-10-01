@@ -1,11 +1,12 @@
 {
-  "name": "test-app",
+  "name": "e-commerce",
   "devDependencies": {
     "vite": "^4.4.9",
     "vite-plugin-ruby": "^3.2.2"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
-    "vue": "^3.2.33"
+    "vue": "^3.2.33",
+    "bootstrap": "^5.3.1"
   }
 }
