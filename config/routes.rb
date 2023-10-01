@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
- get "welcome/index"
- root to: "welcome#index"
+    get "home/index"
+    resources :detail, only: [:index]
+    root to: "home#index"
 end
